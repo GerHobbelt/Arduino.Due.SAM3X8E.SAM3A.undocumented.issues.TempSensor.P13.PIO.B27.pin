@@ -212,7 +212,7 @@ void setup() {
   PIOB->PIO_OWDR &= ~PIO_PB27B_TIOB0;   // enable synchronous output
   PIOB->PIO_OWER |= PIO_PB27B_TIOB0;
   // +
-  PIOB->PIO_OWSR |= PIO_PB27B_TIOB0;    // see datasheet section 31.5.5 "synchronous output"
+  PIOB->PIO_OWSR |= PIO_PB27B_TIOB0;    // see datasheet section 31.5.5 "synchronous output" + 31.5.7
   PIOB->PIO_ODSR &= ~PIO_PB27B_TIOB0;   // enable direct a.k.a. synchronous output
 
   PIOB->PIO_PUER &= ~PIO_PB27B_TIOB0;  // pullup DISable
