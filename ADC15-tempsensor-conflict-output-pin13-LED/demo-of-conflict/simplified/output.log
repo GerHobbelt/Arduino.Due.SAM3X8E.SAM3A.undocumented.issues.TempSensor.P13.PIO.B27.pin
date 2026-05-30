@@ -1,0 +1,1590 @@
+PIN 13 vs Temp.Sensor ADC15 example Z:\lib\tooling\qiqqa\MuPDF\thirdparty\owemdjee\Arduino.Due.SAM3X8E.SAM3A.undocumented.issues.TempSensor.P13.PIO.B27.pin\ADC15-tempsensor-conflict-output-pin13-LED\demo-of-conflict\simplified\simplified.ino
+pin 13: write-protect status register =  0
+
+pin 13: pinval.0 =   0
+
+pin 13: pinval.1 =   1
+
+pin 13: pinstatus =  1
+
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+
+
+TESTS ---------------> 
+0
+1000
+3.1415
+1
+97
+(null)
+strrrrring
+xyz
+(null)
+buggerit
+buggerit
+class CL instance
+0x20087E84
+
+
+Done!
+
+
+TESTS ---------------> 
+
+hello world!
+
+
+-----------------TESTS ---------------> 
+hello world!
+
+
+-----------------TESTS ---------------> 
+bugger it! millenium hand and shrimp! 42
+
+
+-----------------TESTS ---------------> 
+hola xyz papi! $0000:002B(B0000.0000.0000.0000:0000.0000.0010.1011)
+
+byte b $11(B0001.0001)
+
+
+-----------------TESTS ---------------> 
+
+
+Done!
+
+
+
+ADC = 0 / avg.: 0 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 1 @ micros dT= 100123
+
+ADC = 0 / avg.: 0 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 2 @ micros dT= 100123
+
+ADC = 0 / avg.: 0 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 3 @ micros dT= 100122
+
+ADC = 0 / avg.: 0 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 4 @ micros dT= 100123
+ADC *ON*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1024 / avg.: 1024 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 5 @ micros dT= 503
+ADC = 1023 / avg.: 1023 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 5 @ micros dT= 8218
+ADC = 1025 / avg.: 1023 , dV: 2 , noise: 2 , count: 3 @ cycle-counter: 5 @ micros dT= 16018
+ADC = 1026 / avg.: 1023 , dV: 3 , noise: 3 , count: 4 @ cycle-counter: 5 @ micros dT= 23904
+ADC = 1026 / avg.: 1023 , dV: 3 , noise: 3 , count: 5 @ cycle-counter: 5 @ micros dT= 31790
+ADC = 1023 / avg.: 1023 , dV: 0 , noise: 3 , count: 6 @ cycle-counter: 5 @ micros dT= 39675
+ADC = 1026 / avg.: 1023 , dV: 3 , noise: 3 , count: 7 @ cycle-counter: 5 @ micros dT= 47561
+ADC = 1024 / avg.: 1023 , dV: 1 , noise: 3 , count: 8 @ cycle-counter: 5 @ micros dT= 55446
+ADC = 1026 / avg.: 1023 , dV: 3 , noise: 3 , count: 9 @ cycle-counter: 5 @ micros dT= 63332
+ADC = 1026 / avg.: 1023 , dV: 3 , noise: 3 , count: 10 @ cycle-counter: 5 @ micros dT= 71228
+ADC = 1022 / avg.: 1022 , dV: 0 , noise: 3 , count: 11 @ cycle-counter: 5 @ micros dT= 79200
+ADC = 1024 / avg.: 1022 , dV: 2 , noise: 3 , count: 12 @ cycle-counter: 5 @ micros dT= 87171
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 6 , count: 13 @ cycle-counter: 5 @ micros dT= 95143
+
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 6 , count: 14 @ cycle-counter: 6 @ micros dT= 178
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 6 , count: 15 @ cycle-counter: 6 @ micros dT= 571
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 6 , count: 16 @ cycle-counter: 6 @ micros dT= 963
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 6 , count: 17 @ cycle-counter: 6 @ micros dT= 1358
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 6 , count: 18 @ cycle-counter: 6 @ micros dT= 1758
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 6 , count: 19 @ cycle-counter: 6 @ micros dT= 2159
+ADC = 1023 / avg.: 1022 , dV: 1 , noise: 6 , count: 20 @ cycle-counter: 6 @ micros dT= 2560
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 6 , count: 21 @ cycle-counter: 6 @ micros dT= 2960
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 6 , count: 22 @ cycle-counter: 6 @ micros dT= 3361
+ADC = 1029 / avg.: 1022 , dV: 7 , noise: 7 , count: 23 @ cycle-counter: 6 @ micros dT= 3762
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 24 @ cycle-counter: 6 @ micros dT= 4163
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 25 @ cycle-counter: 6 @ micros dT= 4563
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 26 @ cycle-counter: 6 @ micros dT= 6914
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 27 @ cycle-counter: 6 @ micros dT= 14799
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 28 @ cycle-counter: 6 @ micros dT= 22771
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 29 @ cycle-counter: 6 @ micros dT= 30742
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 30 @ cycle-counter: 6 @ micros dT= 38714
+ADC = 1029 / avg.: 1022 , dV: 7 , noise: 7 , count: 31 @ cycle-counter: 6 @ micros dT= 46685
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 32 @ cycle-counter: 6 @ micros dT= 54657
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 33 @ cycle-counter: 6 @ micros dT= 62628
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 34 @ cycle-counter: 6 @ micros dT= 70599
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 35 @ cycle-counter: 6 @ micros dT= 78571
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 36 @ cycle-counter: 6 @ micros dT= 86542
+ADC = 1024 / avg.: 1022 , dV: 2 , noise: 7 , count: 37 @ cycle-counter: 6 @ micros dT= 94514
+
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 38 @ cycle-counter: 7 @ micros dT= 178
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 39 @ cycle-counter: 7 @ micros dT= 571
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 40 @ cycle-counter: 7 @ micros dT= 963
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 7 , count: 41 @ cycle-counter: 7 @ micros dT= 1358
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 42 @ cycle-counter: 7 @ micros dT= 1758
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 43 @ cycle-counter: 7 @ micros dT= 2159
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 44 @ cycle-counter: 7 @ micros dT= 2560
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 45 @ cycle-counter: 7 @ micros dT= 2960
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 46 @ cycle-counter: 7 @ micros dT= 3361
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 47 @ cycle-counter: 7 @ micros dT= 3762
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 48 @ cycle-counter: 7 @ micros dT= 4163
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 49 @ cycle-counter: 7 @ micros dT= 4563
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 7 , count: 50 @ cycle-counter: 7 @ micros dT= 6914
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 51 @ cycle-counter: 7 @ micros dT= 14799
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 52 @ cycle-counter: 7 @ micros dT= 22771
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 7 , count: 53 @ cycle-counter: 7 @ micros dT= 30742
+ADC = 1029 / avg.: 1022 , dV: 7 , noise: 7 , count: 54 @ cycle-counter: 7 @ micros dT= 38714
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 55 @ cycle-counter: 7 @ micros dT= 46685
+ADC = 1024 / avg.: 1022 , dV: 2 , noise: 7 , count: 56 @ cycle-counter: 7 @ micros dT= 54657
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 7 , count: 57 @ cycle-counter: 7 @ micros dT= 62628
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 7 , count: 58 @ cycle-counter: 7 @ micros dT= 70599
+ADC = 1029 / avg.: 1022 , dV: 7 , noise: 7 , count: 59 @ cycle-counter: 7 @ micros dT= 78571
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 7 , count: 60 @ cycle-counter: 7 @ micros dT= 86542
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 7 , count: 61 @ cycle-counter: 7 @ micros dT= 94514
+
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 62 @ cycle-counter: 8 @ micros dT= 178
+ADC = 1029 / avg.: 1022 , dV: 7 , noise: 7 , count: 63 @ cycle-counter: 8 @ micros dT= 571
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 7 , count: 64 @ cycle-counter: 8 @ micros dT= 963
+ADC = 1030 / avg.: 1022 , dV: 8 , noise: 8 , count: 65 @ cycle-counter: 8 @ micros dT= 1358
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 66 @ cycle-counter: 8 @ micros dT= 1757
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 67 @ cycle-counter: 8 @ micros dT= 2159
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 68 @ cycle-counter: 8 @ micros dT= 2560
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 69 @ cycle-counter: 8 @ micros dT= 2959
+ADC = 1029 / avg.: 1022 , dV: 7 , noise: 8 , count: 70 @ cycle-counter: 8 @ micros dT= 3360
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 8 , count: 71 @ cycle-counter: 8 @ micros dT= 3761
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 72 @ cycle-counter: 8 @ micros dT= 4161
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 73 @ cycle-counter: 8 @ micros dT= 4562
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 8 , count: 74 @ cycle-counter: 8 @ micros dT= 6914
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 75 @ cycle-counter: 8 @ micros dT= 14799
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 76 @ cycle-counter: 8 @ micros dT= 22771
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 77 @ cycle-counter: 8 @ micros dT= 30742
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 78 @ cycle-counter: 8 @ micros dT= 38714
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 79 @ cycle-counter: 8 @ micros dT= 46685
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 80 @ cycle-counter: 8 @ micros dT= 54657
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 8 , count: 81 @ cycle-counter: 8 @ micros dT= 62628
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 82 @ cycle-counter: 8 @ micros dT= 70599
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 83 @ cycle-counter: 8 @ micros dT= 78571
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 8 , count: 84 @ cycle-counter: 8 @ micros dT= 86542
+ADC = 1024 / avg.: 1022 , dV: 2 , noise: 8 , count: 85 @ cycle-counter: 8 @ micros dT= 94514
+
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 86 @ cycle-counter: 9 @ micros dT= 178
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 87 @ cycle-counter: 9 @ micros dT= 571
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 88 @ cycle-counter: 9 @ micros dT= 963
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 89 @ cycle-counter: 9 @ micros dT= 1358
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 90 @ cycle-counter: 9 @ micros dT= 1757
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 91 @ cycle-counter: 9 @ micros dT= 2159
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 92 @ cycle-counter: 9 @ micros dT= 2560
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 93 @ cycle-counter: 9 @ micros dT= 2959
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 94 @ cycle-counter: 9 @ micros dT= 3361
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 95 @ cycle-counter: 9 @ micros dT= 3762
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 96 @ cycle-counter: 9 @ micros dT= 4163
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 97 @ cycle-counter: 9 @ micros dT= 4564
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 98 @ cycle-counter: 9 @ micros dT= 6914
+ADC = 1024 / avg.: 1022 , dV: 2 , noise: 8 , count: 99 @ cycle-counter: 9 @ micros dT= 14799
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 100 @ cycle-counter: 9 @ micros dT= 22776
+ADC = 1023 / avg.: 1022 , dV: 1 , noise: 8 , count: 101 @ cycle-counter: 9 @ micros dT= 30833
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 102 @ cycle-counter: 9 @ micros dT= 38890
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 8 , count: 103 @ cycle-counter: 9 @ micros dT= 46947
+ADC = 1028 / avg.: 1022 , dV: 6 , noise: 8 , count: 104 @ cycle-counter: 9 @ micros dT= 55005
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 105 @ cycle-counter: 9 @ micros dT= 63063
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 106 @ cycle-counter: 9 @ micros dT= 71120
+ADC = 1027 / avg.: 1022 , dV: 5 , noise: 8 , count: 107 @ cycle-counter: 9 @ micros dT= 79176
+ADC = 1025 / avg.: 1022 , dV: 3 , noise: 8 , count: 108 @ cycle-counter: 9 @ micros dT= 87233
+ADC = 1026 / avg.: 1022 , dV: 4 , noise: 8 , count: 109 @ cycle-counter: 9 @ micros dT= 95290
+ADC TS *OFF*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 10 @ micros dT= 515
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 10 @ micros dT= 8314
+ADC = 2059 / avg.: 2058 , dV: 1 , noise: 1 , count: 3 @ cycle-counter: 10 @ micros dT= 16200
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 4 @ cycle-counter: 10 @ micros dT= 24172
+ADC = 2059 / avg.: 2058 , dV: 1 , noise: 1 , count: 5 @ cycle-counter: 10 @ micros dT= 32143
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 6 @ cycle-counter: 10 @ micros dT= 40114
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 7 @ cycle-counter: 10 @ micros dT= 48086
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 8 @ cycle-counter: 10 @ micros dT= 56057
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 9 @ cycle-counter: 10 @ micros dT= 64029
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 10 @ cycle-counter: 10 @ micros dT= 72009
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 11 @ cycle-counter: 10 @ micros dT= 80066
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 12 @ cycle-counter: 10 @ micros dT= 88123
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 13 @ cycle-counter: 10 @ micros dT= 96181
+
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 14 @ cycle-counter: 11 @ micros dT= 187
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 15 @ cycle-counter: 11 @ micros dT= 592
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 16 @ cycle-counter: 11 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 17 @ cycle-counter: 11 @ micros dT= 1403
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 18 @ cycle-counter: 11 @ micros dT= 1815
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 19 @ cycle-counter: 11 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 20 @ cycle-counter: 11 @ micros dT= 2641
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 21 @ cycle-counter: 11 @ micros dT= 3052
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 22 @ cycle-counter: 11 @ micros dT= 3465
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 23 @ cycle-counter: 11 @ micros dT= 3877
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 24 @ cycle-counter: 11 @ micros dT= 4290
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 25 @ cycle-counter: 11 @ micros dT= 4702
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 26 @ cycle-counter: 11 @ micros dT= 7960
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 27 @ cycle-counter: 11 @ micros dT= 15932
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 28 @ cycle-counter: 11 @ micros dT= 23991
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 29 @ cycle-counter: 11 @ micros dT= 32047
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 30 @ cycle-counter: 11 @ micros dT= 40104
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 31 @ cycle-counter: 11 @ micros dT= 48161
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 32 @ cycle-counter: 11 @ micros dT= 56218
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 33 @ cycle-counter: 11 @ micros dT= 64275
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 34 @ cycle-counter: 11 @ micros dT= 72332
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 35 @ cycle-counter: 11 @ micros dT= 80389
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 36 @ cycle-counter: 11 @ micros dT= 88446
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 37 @ cycle-counter: 11 @ micros dT= 96503
+
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 38 @ cycle-counter: 12 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 39 @ cycle-counter: 12 @ micros dT= 592
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 40 @ cycle-counter: 12 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 41 @ cycle-counter: 12 @ micros dT= 1403
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 42 @ cycle-counter: 12 @ micros dT= 1815
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 43 @ cycle-counter: 12 @ micros dT= 2229
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 44 @ cycle-counter: 12 @ micros dT= 2641
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 45 @ cycle-counter: 12 @ micros dT= 3052
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 46 @ cycle-counter: 12 @ micros dT= 3465
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 47 @ cycle-counter: 12 @ micros dT= 3877
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 48 @ cycle-counter: 12 @ micros dT= 4291
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 49 @ cycle-counter: 12 @ micros dT= 4703
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 50 @ cycle-counter: 12 @ micros dT= 7958
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 51 @ cycle-counter: 12 @ micros dT= 15929
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 52 @ cycle-counter: 12 @ micros dT= 23986
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 53 @ cycle-counter: 12 @ micros dT= 32044
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 54 @ cycle-counter: 12 @ micros dT= 40101
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 55 @ cycle-counter: 12 @ micros dT= 48159
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 56 @ cycle-counter: 12 @ micros dT= 56215
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 57 @ cycle-counter: 12 @ micros dT= 64272
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 58 @ cycle-counter: 12 @ micros dT= 72329
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 59 @ cycle-counter: 12 @ micros dT= 80386
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 60 @ cycle-counter: 12 @ micros dT= 88443
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 61 @ cycle-counter: 12 @ micros dT= 96500
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 62 @ cycle-counter: 13 @ micros dT= 187
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 63 @ cycle-counter: 13 @ micros dT= 592
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 64 @ cycle-counter: 13 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 65 @ cycle-counter: 13 @ micros dT= 1402
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 66 @ cycle-counter: 13 @ micros dT= 1814
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 67 @ cycle-counter: 13 @ micros dT= 2227
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 68 @ cycle-counter: 13 @ micros dT= 2640
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 69 @ cycle-counter: 13 @ micros dT= 3051
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 70 @ cycle-counter: 13 @ micros dT= 3464
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 71 @ cycle-counter: 13 @ micros dT= 3876
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 72 @ cycle-counter: 13 @ micros dT= 4289
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 73 @ cycle-counter: 13 @ micros dT= 4701
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 74 @ cycle-counter: 13 @ micros dT= 7963
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 75 @ cycle-counter: 13 @ micros dT= 15935
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 76 @ cycle-counter: 13 @ micros dT= 23993
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 77 @ cycle-counter: 13 @ micros dT= 32050
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 78 @ cycle-counter: 13 @ micros dT= 40107
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 79 @ cycle-counter: 13 @ micros dT= 48164
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 80 @ cycle-counter: 13 @ micros dT= 56220
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 81 @ cycle-counter: 13 @ micros dT= 64277
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 82 @ cycle-counter: 13 @ micros dT= 72335
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 83 @ cycle-counter: 13 @ micros dT= 80392
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 84 @ cycle-counter: 13 @ micros dT= 88449
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 85 @ cycle-counter: 13 @ micros dT= 96506
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 86 @ cycle-counter: 14 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 87 @ cycle-counter: 14 @ micros dT= 592
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 88 @ cycle-counter: 14 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 89 @ cycle-counter: 14 @ micros dT= 1403
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 90 @ cycle-counter: 14 @ micros dT= 1815
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 91 @ cycle-counter: 14 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 92 @ cycle-counter: 14 @ micros dT= 2640
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 93 @ cycle-counter: 14 @ micros dT= 3051
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 94 @ cycle-counter: 14 @ micros dT= 3464
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 95 @ cycle-counter: 14 @ micros dT= 3876
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 96 @ cycle-counter: 14 @ micros dT= 4289
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 97 @ cycle-counter: 14 @ micros dT= 4702
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 98 @ cycle-counter: 14 @ micros dT= 7960
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 99 @ cycle-counter: 14 @ micros dT= 15932
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 100 @ cycle-counter: 14 @ micros dT= 23994
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 101 @ cycle-counter: 14 @ micros dT= 32137
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 102 @ cycle-counter: 14 @ micros dT= 40279
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 103 @ cycle-counter: 14 @ micros dT= 48422
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 104 @ cycle-counter: 14 @ micros dT= 56564
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 105 @ cycle-counter: 14 @ micros dT= 64707
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 106 @ cycle-counter: 14 @ micros dT= 72850
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 107 @ cycle-counter: 14 @ micros dT= 80994
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 108 @ cycle-counter: 14 @ micros dT= 89137
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 109 @ cycle-counter: 14 @ micros dT= 97279
+ADC TS *ON*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 15 @ micros dT= 515
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 15 @ micros dT= 8314
+ADC = 1028 / avg.: 1028 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 15 @ micros dT= 16200
+ADC = 1027 / avg.: 1027 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 15 @ micros dT= 24171
+ADC = 1031 / avg.: 1027 , dV: 4 , noise: 4 , count: 5 @ cycle-counter: 15 @ micros dT= 32143
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 4 , count: 6 @ cycle-counter: 15 @ micros dT= 40114
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 4 , count: 7 @ cycle-counter: 15 @ micros dT= 48086
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 4 , count: 8 @ cycle-counter: 15 @ micros dT= 56057
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 4 , count: 9 @ cycle-counter: 15 @ micros dT= 64028
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 4 , count: 10 @ cycle-counter: 15 @ micros dT= 72009
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 4 , count: 11 @ cycle-counter: 15 @ micros dT= 80066
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 4 , count: 12 @ cycle-counter: 15 @ micros dT= 88123
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 4 , count: 13 @ cycle-counter: 15 @ micros dT= 96180
+
+ADC = 1027 / avg.: 1027 , dV: 0 , noise: 4 , count: 14 @ cycle-counter: 16 @ micros dT= 187
+ADC = 1026 / avg.: 1026 , dV: 0 , noise: 4 , count: 15 @ cycle-counter: 16 @ micros dT= 592
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 4 , count: 16 @ cycle-counter: 16 @ micros dT= 996
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 5 , count: 17 @ cycle-counter: 16 @ micros dT= 1401
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 5 , count: 18 @ cycle-counter: 16 @ micros dT= 1813
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 5 , count: 19 @ cycle-counter: 16 @ micros dT= 2227
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 5 , count: 20 @ cycle-counter: 16 @ micros dT= 2639
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 5 , count: 21 @ cycle-counter: 16 @ micros dT= 3050
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 5 , count: 22 @ cycle-counter: 16 @ micros dT= 3463
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 5 , count: 23 @ cycle-counter: 16 @ micros dT= 3875
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 5 , count: 24 @ cycle-counter: 16 @ micros dT= 4288
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 5 , count: 25 @ cycle-counter: 16 @ micros dT= 4700
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 5 , count: 26 @ cycle-counter: 16 @ micros dT= 7957
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 5 , count: 27 @ cycle-counter: 16 @ micros dT= 15929
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 5 , count: 28 @ cycle-counter: 16 @ micros dT= 23986
+ADC = 1025 / avg.: 1025 , dV: 0 , noise: 5 , count: 29 @ cycle-counter: 16 @ micros dT= 32044
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 30 @ cycle-counter: 16 @ micros dT= 40101
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 5 , count: 31 @ cycle-counter: 16 @ micros dT= 48158
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 32 @ cycle-counter: 16 @ micros dT= 56215
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 5 , count: 33 @ cycle-counter: 16 @ micros dT= 64272
+ADC = 1026 / avg.: 1025 , dV: 1 , noise: 5 , count: 34 @ cycle-counter: 16 @ micros dT= 72329
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 5 , count: 35 @ cycle-counter: 16 @ micros dT= 80386
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 36 @ cycle-counter: 16 @ micros dT= 88443
+ADC = 1027 / avg.: 1025 , dV: 2 , noise: 5 , count: 37 @ cycle-counter: 16 @ micros dT= 96500
+
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 5 , count: 38 @ cycle-counter: 17 @ micros dT= 187
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 39 @ cycle-counter: 17 @ micros dT= 592
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 40 @ cycle-counter: 17 @ micros dT= 996
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 41 @ cycle-counter: 17 @ micros dT= 1401
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 42 @ cycle-counter: 17 @ micros dT= 1813
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 43 @ cycle-counter: 17 @ micros dT= 2227
+ADC = 1027 / avg.: 1025 , dV: 2 , noise: 5 , count: 44 @ cycle-counter: 17 @ micros dT= 2639
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 5 , count: 45 @ cycle-counter: 17 @ micros dT= 3050
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 5 , count: 46 @ cycle-counter: 17 @ micros dT= 3463
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 5 , count: 47 @ cycle-counter: 17 @ micros dT= 3875
+ADC = 1025 / avg.: 1025 , dV: 0 , noise: 5 , count: 48 @ cycle-counter: 17 @ micros dT= 4288
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 5 , count: 49 @ cycle-counter: 17 @ micros dT= 4700
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 5 , count: 50 @ cycle-counter: 17 @ micros dT= 7963
+ADC = 1027 / avg.: 1025 , dV: 2 , noise: 5 , count: 51 @ cycle-counter: 17 @ micros dT= 15935
+ADC = 1031 / avg.: 1025 , dV: 6 , noise: 6 , count: 52 @ cycle-counter: 17 @ micros dT= 23993
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 6 , count: 53 @ cycle-counter: 17 @ micros dT= 32050
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 6 , count: 54 @ cycle-counter: 17 @ micros dT= 40107
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 6 , count: 55 @ cycle-counter: 17 @ micros dT= 48164
+ADC = 1026 / avg.: 1025 , dV: 1 , noise: 6 , count: 56 @ cycle-counter: 17 @ micros dT= 56220
+ADC = 1024 / avg.: 1024 , dV: 0 , noise: 6 , count: 57 @ cycle-counter: 17 @ micros dT= 64277
+ADC = 1026 / avg.: 1024 , dV: 2 , noise: 6 , count: 58 @ cycle-counter: 17 @ micros dT= 72335
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 6 , count: 59 @ cycle-counter: 17 @ micros dT= 80392
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 6 , count: 60 @ cycle-counter: 17 @ micros dT= 88449
+ADC = 1026 / avg.: 1024 , dV: 2 , noise: 6 , count: 61 @ cycle-counter: 17 @ micros dT= 96506
+
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 6 , count: 62 @ cycle-counter: 18 @ micros dT= 187
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 6 , count: 63 @ cycle-counter: 18 @ micros dT= 592
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 6 , count: 64 @ cycle-counter: 18 @ micros dT= 997
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 6 , count: 65 @ cycle-counter: 18 @ micros dT= 1402
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 6 , count: 66 @ cycle-counter: 18 @ micros dT= 1814
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 6 , count: 67 @ cycle-counter: 18 @ micros dT= 2228
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 6 , count: 68 @ cycle-counter: 18 @ micros dT= 2640
+ADC = 1027 / avg.: 1024 , dV: 3 , noise: 6 , count: 69 @ cycle-counter: 18 @ micros dT= 3051
+ADC = 1033 / avg.: 1024 , dV: 9 , noise: 9 , count: 70 @ cycle-counter: 18 @ micros dT= 3463
+ADC = 1032 / avg.: 1024 , dV: 8 , noise: 9 , count: 71 @ cycle-counter: 18 @ micros dT= 3876
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 72 @ cycle-counter: 18 @ micros dT= 4289
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 73 @ cycle-counter: 18 @ micros dT= 4701
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 74 @ cycle-counter: 18 @ micros dT= 7960
+ADC = 1026 / avg.: 1024 , dV: 2 , noise: 9 , count: 75 @ cycle-counter: 18 @ micros dT= 15932
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 76 @ cycle-counter: 18 @ micros dT= 23989
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 77 @ cycle-counter: 18 @ micros dT= 32047
+ADC = 1031 / avg.: 1024 , dV: 7 , noise: 9 , count: 78 @ cycle-counter: 18 @ micros dT= 40104
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 79 @ cycle-counter: 18 @ micros dT= 48161
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 80 @ cycle-counter: 18 @ micros dT= 56217
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 81 @ cycle-counter: 18 @ micros dT= 64275
+ADC = 1031 / avg.: 1024 , dV: 7 , noise: 9 , count: 82 @ cycle-counter: 18 @ micros dT= 72332
+ADC = 1032 / avg.: 1024 , dV: 8 , noise: 9 , count: 83 @ cycle-counter: 18 @ micros dT= 80389
+ADC = 1027 / avg.: 1024 , dV: 3 , noise: 9 , count: 84 @ cycle-counter: 18 @ micros dT= 88446
+ADC = 1032 / avg.: 1024 , dV: 8 , noise: 9 , count: 85 @ cycle-counter: 18 @ micros dT= 96503
+
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 86 @ cycle-counter: 19 @ micros dT= 187
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 87 @ cycle-counter: 19 @ micros dT= 592
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 88 @ cycle-counter: 19 @ micros dT= 996
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 89 @ cycle-counter: 19 @ micros dT= 1402
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 90 @ cycle-counter: 19 @ micros dT= 1814
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 91 @ cycle-counter: 19 @ micros dT= 2227
+ADC = 1024 / avg.: 1024 , dV: 0 , noise: 9 , count: 92 @ cycle-counter: 19 @ micros dT= 2639
+ADC = 1031 / avg.: 1024 , dV: 7 , noise: 9 , count: 93 @ cycle-counter: 19 @ micros dT= 3051
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 94 @ cycle-counter: 19 @ micros dT= 3463
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 95 @ cycle-counter: 19 @ micros dT= 3875
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 96 @ cycle-counter: 19 @ micros dT= 4289
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 97 @ cycle-counter: 19 @ micros dT= 4701
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 9 , count: 98 @ cycle-counter: 19 @ micros dT= 7957
+ADC = 1027 / avg.: 1024 , dV: 3 , noise: 9 , count: 99 @ cycle-counter: 19 @ micros dT= 15929
+ADC = 1025 / avg.: 1024 , dV: 1 , noise: 9 , count: 100 @ cycle-counter: 19 @ micros dT= 23991
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 101 @ cycle-counter: 19 @ micros dT= 32134
+ADC = 1031 / avg.: 1024 , dV: 7 , noise: 9 , count: 102 @ cycle-counter: 19 @ micros dT= 40276
+ADC = 1027 / avg.: 1024 , dV: 3 , noise: 9 , count: 103 @ cycle-counter: 19 @ micros dT= 48419
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 104 @ cycle-counter: 19 @ micros dT= 56562
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 105 @ cycle-counter: 19 @ micros dT= 64704
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 106 @ cycle-counter: 19 @ micros dT= 72847
+ADC = 1028 / avg.: 1024 , dV: 4 , noise: 9 , count: 107 @ cycle-counter: 19 @ micros dT= 80991
+ADC = 1030 / avg.: 1024 , dV: 6 , noise: 9 , count: 108 @ cycle-counter: 19 @ micros dT= 89134
+ADC = 1027 / avg.: 1024 , dV: 3 , noise: 9 , count: 109 @ cycle-counter: 19 @ micros dT= 97276
+ADC *OFF*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 20 @ micros dT= 515
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 20 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 21 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 22 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 5 @ cycle-counter: 23 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 6 @ cycle-counter: 24 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 7 @ cycle-counter: 25 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 8 @ cycle-counter: 26 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 9 @ cycle-counter: 27 @ micros dT= 100168
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 10 @ cycle-counter: 28 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 11 @ cycle-counter: 29 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 12 @ cycle-counter: 30 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 13 @ cycle-counter: 31 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 14 @ cycle-counter: 32 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 15 @ cycle-counter: 33 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 16 @ cycle-counter: 34 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 17 @ cycle-counter: 35 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 18 @ cycle-counter: 36 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 19 @ cycle-counter: 37 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 20 @ cycle-counter: 38 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 21 @ cycle-counter: 39 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 22 @ cycle-counter: 40 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 23 @ cycle-counter: 41 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 24 @ cycle-counter: 42 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 25 @ cycle-counter: 43 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 26 @ cycle-counter: 44 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 27 @ cycle-counter: 45 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 28 @ cycle-counter: 46 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 29 @ cycle-counter: 47 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 30 @ cycle-counter: 48 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 31 @ cycle-counter: 49 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 32 @ cycle-counter: 50 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 33 @ cycle-counter: 51 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 34 @ cycle-counter: 52 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 35 @ cycle-counter: 53 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 36 @ cycle-counter: 54 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 37 @ cycle-counter: 55 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 38 @ cycle-counter: 56 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 39 @ cycle-counter: 57 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 40 @ cycle-counter: 58 @ micros dT= 100176
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 41 @ cycle-counter: 59 @ micros dT= 100177
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 42 @ cycle-counter: 60 @ micros dT= 100176
+...RESET CYCLE...
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 43 @ cycle-counter: 0 @ micros dT= 100168
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 44 @ cycle-counter: 1 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 45 @ cycle-counter: 2 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 46 @ cycle-counter: 3 @ micros dT= 100167
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 0 , count: 47 @ cycle-counter: 4 @ micros dT= 100167
+ADC *ON*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 5 @ micros dT= 503
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 5 @ micros dT= 8218
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 5 @ micros dT= 16018
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 5 @ micros dT= 23904
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 0 , count: 5 @ cycle-counter: 5 @ micros dT= 31791
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 6 @ cycle-counter: 5 @ micros dT= 39675
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 7 @ cycle-counter: 5 @ micros dT= 47561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 8 @ cycle-counter: 5 @ micros dT= 55447
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 9 @ cycle-counter: 5 @ micros dT= 63332
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 10 @ cycle-counter: 5 @ micros dT= 71229
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 11 @ cycle-counter: 5 @ micros dT= 79200
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 12 @ cycle-counter: 5 @ micros dT= 87171
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 13 @ cycle-counter: 5 @ micros dT= 95143
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 14 @ cycle-counter: 6 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 15 @ cycle-counter: 6 @ micros dT= 571
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 16 @ cycle-counter: 6 @ micros dT= 963
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 17 @ cycle-counter: 6 @ micros dT= 1359
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 18 @ cycle-counter: 6 @ micros dT= 1758
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 19 @ cycle-counter: 6 @ micros dT= 2160
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 20 @ cycle-counter: 6 @ micros dT= 2561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 21 @ cycle-counter: 6 @ micros dT= 2960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 22 @ cycle-counter: 6 @ micros dT= 3362
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 23 @ cycle-counter: 6 @ micros dT= 3763
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 24 @ cycle-counter: 6 @ micros dT= 4163
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 25 @ cycle-counter: 6 @ micros dT= 4564
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 26 @ cycle-counter: 6 @ micros dT= 6911
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 27 @ cycle-counter: 6 @ micros dT= 14797
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 28 @ cycle-counter: 6 @ micros dT= 22768
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 29 @ cycle-counter: 6 @ micros dT= 30740
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 30 @ cycle-counter: 6 @ micros dT= 38711
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 31 @ cycle-counter: 6 @ micros dT= 46682
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 32 @ cycle-counter: 6 @ micros dT= 54654
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 33 @ cycle-counter: 6 @ micros dT= 62625
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 34 @ cycle-counter: 6 @ micros dT= 70597
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 35 @ cycle-counter: 6 @ micros dT= 78568
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 36 @ cycle-counter: 6 @ micros dT= 86540
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 37 @ cycle-counter: 6 @ micros dT= 94511
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 38 @ cycle-counter: 7 @ micros dT= 178
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 39 @ cycle-counter: 7 @ micros dT= 571
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 40 @ cycle-counter: 7 @ micros dT= 964
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 41 @ cycle-counter: 7 @ micros dT= 1359
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 42 @ cycle-counter: 7 @ micros dT= 1758
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 43 @ cycle-counter: 7 @ micros dT= 2160
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 44 @ cycle-counter: 7 @ micros dT= 2561
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 45 @ cycle-counter: 7 @ micros dT= 2960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 46 @ cycle-counter: 7 @ micros dT= 3363
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 47 @ cycle-counter: 7 @ micros dT= 3764
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 48 @ cycle-counter: 7 @ micros dT= 4164
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 49 @ cycle-counter: 7 @ micros dT= 4565
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 50 @ cycle-counter: 7 @ micros dT= 6911
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 51 @ cycle-counter: 7 @ micros dT= 14797
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 52 @ cycle-counter: 7 @ micros dT= 22768
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 53 @ cycle-counter: 7 @ micros dT= 30740
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 54 @ cycle-counter: 7 @ micros dT= 38711
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 55 @ cycle-counter: 7 @ micros dT= 46682
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 56 @ cycle-counter: 7 @ micros dT= 54654
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 57 @ cycle-counter: 7 @ micros dT= 62625
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 58 @ cycle-counter: 7 @ micros dT= 70597
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 59 @ cycle-counter: 7 @ micros dT= 78568
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 60 @ cycle-counter: 7 @ micros dT= 86540
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 61 @ cycle-counter: 7 @ micros dT= 94511
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 62 @ cycle-counter: 8 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 63 @ cycle-counter: 8 @ micros dT= 571
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 64 @ cycle-counter: 8 @ micros dT= 963
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 65 @ cycle-counter: 8 @ micros dT= 1359
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 66 @ cycle-counter: 8 @ micros dT= 1758
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 67 @ cycle-counter: 8 @ micros dT= 2160
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 68 @ cycle-counter: 8 @ micros dT= 2561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 69 @ cycle-counter: 8 @ micros dT= 2960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 70 @ cycle-counter: 8 @ micros dT= 3362
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 71 @ cycle-counter: 8 @ micros dT= 3762
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 72 @ cycle-counter: 8 @ micros dT= 4163
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 73 @ cycle-counter: 8 @ micros dT= 4564
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 74 @ cycle-counter: 8 @ micros dT= 6911
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 75 @ cycle-counter: 8 @ micros dT= 14797
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 76 @ cycle-counter: 8 @ micros dT= 22768
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 77 @ cycle-counter: 8 @ micros dT= 30740
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 78 @ cycle-counter: 8 @ micros dT= 38711
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 79 @ cycle-counter: 8 @ micros dT= 46682
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 80 @ cycle-counter: 8 @ micros dT= 54654
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 81 @ cycle-counter: 8 @ micros dT= 62625
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 82 @ cycle-counter: 8 @ micros dT= 70597
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 83 @ cycle-counter: 8 @ micros dT= 78568
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 84 @ cycle-counter: 8 @ micros dT= 86540
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 85 @ cycle-counter: 8 @ micros dT= 94511
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 86 @ cycle-counter: 9 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 87 @ cycle-counter: 9 @ micros dT= 571
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 88 @ cycle-counter: 9 @ micros dT= 963
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 89 @ cycle-counter: 9 @ micros dT= 1358
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 90 @ cycle-counter: 9 @ micros dT= 1757
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 91 @ cycle-counter: 9 @ micros dT= 2159
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 92 @ cycle-counter: 9 @ micros dT= 2560
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 93 @ cycle-counter: 9 @ micros dT= 2959
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 94 @ cycle-counter: 9 @ micros dT= 3362
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 95 @ cycle-counter: 9 @ micros dT= 3763
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 96 @ cycle-counter: 9 @ micros dT= 4163
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 97 @ cycle-counter: 9 @ micros dT= 4564
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 98 @ cycle-counter: 9 @ micros dT= 6911
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 99 @ cycle-counter: 9 @ micros dT= 14797
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 100 @ cycle-counter: 9 @ micros dT= 22773
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 101 @ cycle-counter: 9 @ micros dT= 30830
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 102 @ cycle-counter: 9 @ micros dT= 38887
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 103 @ cycle-counter: 9 @ micros dT= 46945
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 104 @ cycle-counter: 9 @ micros dT= 55003
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 105 @ cycle-counter: 9 @ micros dT= 63060
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 106 @ cycle-counter: 9 @ micros dT= 71117
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 107 @ cycle-counter: 9 @ micros dT= 79173
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 108 @ cycle-counter: 9 @ micros dT= 87230
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 109 @ cycle-counter: 9 @ micros dT= 95287
+ADC TS *OFF*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 10 @ micros dT= 516
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 10 @ micros dT= 8315
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 10 @ micros dT= 16201
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 10 @ micros dT= 24172
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 5 @ cycle-counter: 10 @ micros dT= 32144
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 6 @ cycle-counter: 10 @ micros dT= 40115
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 0 , count: 7 @ cycle-counter: 10 @ micros dT= 48087
+ADC = 2059 / avg.: 2058 , dV: 1 , noise: 1 , count: 8 @ cycle-counter: 10 @ micros dT= 56058
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 9 @ cycle-counter: 10 @ micros dT= 64029
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 10 @ cycle-counter: 10 @ micros dT= 72010
+ADC = 2059 / avg.: 2058 , dV: 1 , noise: 1 , count: 11 @ cycle-counter: 10 @ micros dT= 80067
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 12 @ cycle-counter: 10 @ micros dT= 88124
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 13 @ cycle-counter: 10 @ micros dT= 96181
+
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 14 @ cycle-counter: 11 @ micros dT= 187
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 15 @ cycle-counter: 11 @ micros dT= 592
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 16 @ cycle-counter: 11 @ micros dT= 997
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 17 @ cycle-counter: 11 @ micros dT= 1403
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 18 @ cycle-counter: 11 @ micros dT= 1815
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 19 @ cycle-counter: 11 @ micros dT= 2229
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 20 @ cycle-counter: 11 @ micros dT= 2641
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 21 @ cycle-counter: 11 @ micros dT= 3052
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 22 @ cycle-counter: 11 @ micros dT= 3465
+ADC = 2058 / avg.: 2058 , dV: 0 , noise: 1 , count: 23 @ cycle-counter: 11 @ micros dT= 3877
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 24 @ cycle-counter: 11 @ micros dT= 4291
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 25 @ cycle-counter: 11 @ micros dT= 4703
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 26 @ cycle-counter: 11 @ micros dT= 7958
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 27 @ cycle-counter: 11 @ micros dT= 15929
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 28 @ cycle-counter: 11 @ micros dT= 23986
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 29 @ cycle-counter: 11 @ micros dT= 32044
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 30 @ cycle-counter: 11 @ micros dT= 40101
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 31 @ cycle-counter: 11 @ micros dT= 48159
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 32 @ cycle-counter: 11 @ micros dT= 56215
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 33 @ cycle-counter: 11 @ micros dT= 64272
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 34 @ cycle-counter: 11 @ micros dT= 72329
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 35 @ cycle-counter: 11 @ micros dT= 80386
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 36 @ cycle-counter: 11 @ micros dT= 88443
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 37 @ cycle-counter: 11 @ micros dT= 96500
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 38 @ cycle-counter: 12 @ micros dT= 187
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 39 @ cycle-counter: 12 @ micros dT= 592
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 40 @ cycle-counter: 12 @ micros dT= 997
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 41 @ cycle-counter: 12 @ micros dT= 1403
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 42 @ cycle-counter: 12 @ micros dT= 1814
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 43 @ cycle-counter: 12 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 44 @ cycle-counter: 12 @ micros dT= 2640
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 45 @ cycle-counter: 12 @ micros dT= 3052
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 46 @ cycle-counter: 12 @ micros dT= 3464
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 47 @ cycle-counter: 12 @ micros dT= 3876
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 48 @ cycle-counter: 12 @ micros dT= 4290
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 49 @ cycle-counter: 12 @ micros dT= 4702
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 50 @ cycle-counter: 12 @ micros dT= 7963
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 51 @ cycle-counter: 12 @ micros dT= 15935
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 52 @ cycle-counter: 12 @ micros dT= 23993
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 53 @ cycle-counter: 12 @ micros dT= 32050
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 54 @ cycle-counter: 12 @ micros dT= 40107
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 55 @ cycle-counter: 12 @ micros dT= 48164
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 56 @ cycle-counter: 12 @ micros dT= 56220
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 57 @ cycle-counter: 12 @ micros dT= 64278
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 58 @ cycle-counter: 12 @ micros dT= 72335
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 59 @ cycle-counter: 12 @ micros dT= 80392
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 60 @ cycle-counter: 12 @ micros dT= 88449
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 61 @ cycle-counter: 12 @ micros dT= 96506
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 62 @ cycle-counter: 13 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 63 @ cycle-counter: 13 @ micros dT= 592
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 64 @ cycle-counter: 13 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 65 @ cycle-counter: 13 @ micros dT= 1403
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 66 @ cycle-counter: 13 @ micros dT= 1815
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 67 @ cycle-counter: 13 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 68 @ cycle-counter: 13 @ micros dT= 2640
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 69 @ cycle-counter: 13 @ micros dT= 3051
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 70 @ cycle-counter: 13 @ micros dT= 3463
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 71 @ cycle-counter: 13 @ micros dT= 3875
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 72 @ cycle-counter: 13 @ micros dT= 4289
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 73 @ cycle-counter: 13 @ micros dT= 4701
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 74 @ cycle-counter: 13 @ micros dT= 7960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 75 @ cycle-counter: 13 @ micros dT= 15932
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 76 @ cycle-counter: 13 @ micros dT= 23991
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 77 @ cycle-counter: 13 @ micros dT= 32047
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 78 @ cycle-counter: 13 @ micros dT= 40104
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 79 @ cycle-counter: 13 @ micros dT= 48161
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 80 @ cycle-counter: 13 @ micros dT= 56218
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 81 @ cycle-counter: 13 @ micros dT= 64275
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 82 @ cycle-counter: 13 @ micros dT= 72332
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 83 @ cycle-counter: 13 @ micros dT= 80389
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 84 @ cycle-counter: 13 @ micros dT= 88446
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 85 @ cycle-counter: 13 @ micros dT= 96503
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 86 @ cycle-counter: 14 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 87 @ cycle-counter: 14 @ micros dT= 592
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 88 @ cycle-counter: 14 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 89 @ cycle-counter: 14 @ micros dT= 1402
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 90 @ cycle-counter: 14 @ micros dT= 1815
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 91 @ cycle-counter: 14 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 92 @ cycle-counter: 14 @ micros dT= 2641
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 93 @ cycle-counter: 14 @ micros dT= 3052
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 94 @ cycle-counter: 14 @ micros dT= 3464
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 95 @ cycle-counter: 14 @ micros dT= 3877
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 96 @ cycle-counter: 14 @ micros dT= 4290
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 97 @ cycle-counter: 14 @ micros dT= 4703
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 98 @ cycle-counter: 14 @ micros dT= 7958
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 99 @ cycle-counter: 14 @ micros dT= 15929
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 100 @ cycle-counter: 14 @ micros dT= 23991
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 101 @ cycle-counter: 14 @ micros dT= 32134
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 102 @ cycle-counter: 14 @ micros dT= 40276
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 103 @ cycle-counter: 14 @ micros dT= 48419
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 104 @ cycle-counter: 14 @ micros dT= 56562
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 105 @ cycle-counter: 14 @ micros dT= 64705
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 106 @ cycle-counter: 14 @ micros dT= 72847
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 107 @ cycle-counter: 14 @ micros dT= 80991
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 108 @ cycle-counter: 14 @ micros dT= 89134
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 109 @ cycle-counter: 14 @ micros dT= 97276
+ADC TS *ON*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1033 / avg.: 1033 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 15 @ micros dT= 515
+ADC = 1031 / avg.: 1032 , dV: 1 , noise: 1 , count: 2 @ cycle-counter: 15 @ micros dT= 8314
+ADC = 1030 / avg.: 1031 , dV: 1 , noise: 1 , count: 3 @ cycle-counter: 15 @ micros dT= 16200
+ADC = 1032 / avg.: 1031 , dV: 1 , noise: 1 , count: 4 @ cycle-counter: 15 @ micros dT= 24171
+ADC = 1034 / avg.: 1031 , dV: 3 , noise: 3 , count: 5 @ cycle-counter: 15 @ micros dT= 32143
+ADC = 1032 / avg.: 1031 , dV: 1 , noise: 3 , count: 6 @ cycle-counter: 15 @ micros dT= 40114
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 3 , count: 7 @ cycle-counter: 15 @ micros dT= 48086
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 3 , count: 8 @ cycle-counter: 15 @ micros dT= 56057
+ADC = 1032 / avg.: 1031 , dV: 1 , noise: 3 , count: 9 @ cycle-counter: 15 @ micros dT= 64029
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 3 , count: 10 @ cycle-counter: 15 @ micros dT= 72009
+ADC = 1034 / avg.: 1031 , dV: 3 , noise: 3 , count: 11 @ cycle-counter: 15 @ micros dT= 80066
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 3 , count: 12 @ cycle-counter: 15 @ micros dT= 88123
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 3 , count: 13 @ cycle-counter: 15 @ micros dT= 96180
+
+ADC = 1028 / avg.: 1029 , dV: 1 , noise: 3 , count: 14 @ cycle-counter: 16 @ micros dT= 187
+ADC = 1032 / avg.: 1029 , dV: 3 , noise: 3 , count: 15 @ cycle-counter: 16 @ micros dT= 592
+ADC = 1030 / avg.: 1029 , dV: 1 , noise: 3 , count: 16 @ cycle-counter: 16 @ micros dT= 997
+ADC = 1032 / avg.: 1029 , dV: 3 , noise: 3 , count: 17 @ cycle-counter: 16 @ micros dT= 1402
+ADC = 1028 / avg.: 1028 , dV: 0 , noise: 3 , count: 18 @ cycle-counter: 16 @ micros dT= 1815
+ADC = 1029 / avg.: 1028 , dV: 1 , noise: 3 , count: 19 @ cycle-counter: 16 @ micros dT= 2228
+ADC = 1028 / avg.: 1028 , dV: 0 , noise: 3 , count: 20 @ cycle-counter: 16 @ micros dT= 2640
+ADC = 1029 / avg.: 1028 , dV: 1 , noise: 3 , count: 21 @ cycle-counter: 16 @ micros dT= 3052
+ADC = 1026 / avg.: 1027 , dV: 1 , noise: 3 , count: 22 @ cycle-counter: 16 @ micros dT= 3464
+ADC = 1026 / avg.: 1026 , dV: 0 , noise: 3 , count: 23 @ cycle-counter: 16 @ micros dT= 3876
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 4 , count: 24 @ cycle-counter: 16 @ micros dT= 4289
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 4 , count: 25 @ cycle-counter: 16 @ micros dT= 4702
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 4 , count: 26 @ cycle-counter: 16 @ micros dT= 7963
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 5 , count: 27 @ cycle-counter: 16 @ micros dT= 15935
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 5 , count: 28 @ cycle-counter: 16 @ micros dT= 23993
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 5 , count: 29 @ cycle-counter: 16 @ micros dT= 32050
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 5 , count: 30 @ cycle-counter: 16 @ micros dT= 40107
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 5 , count: 31 @ cycle-counter: 16 @ micros dT= 48164
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 5 , count: 32 @ cycle-counter: 16 @ micros dT= 56220
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 5 , count: 33 @ cycle-counter: 16 @ micros dT= 64277
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 5 , count: 34 @ cycle-counter: 16 @ micros dT= 72335
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 5 , count: 35 @ cycle-counter: 16 @ micros dT= 80392
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 5 , count: 36 @ cycle-counter: 16 @ micros dT= 88449
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 5 , count: 37 @ cycle-counter: 16 @ micros dT= 96506
+
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 5 , count: 38 @ cycle-counter: 17 @ micros dT= 187
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 5 , count: 39 @ cycle-counter: 17 @ micros dT= 592
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 5 , count: 40 @ cycle-counter: 17 @ micros dT= 997
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 7 , count: 41 @ cycle-counter: 17 @ micros dT= 1403
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 42 @ cycle-counter: 17 @ micros dT= 1815
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 43 @ cycle-counter: 17 @ micros dT= 2228
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 44 @ cycle-counter: 17 @ micros dT= 2640
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 45 @ cycle-counter: 17 @ micros dT= 3052
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 46 @ cycle-counter: 17 @ micros dT= 3464
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 47 @ cycle-counter: 17 @ micros dT= 3876
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 48 @ cycle-counter: 17 @ micros dT= 4289
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 49 @ cycle-counter: 17 @ micros dT= 4702
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 50 @ cycle-counter: 17 @ micros dT= 7960
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 51 @ cycle-counter: 17 @ micros dT= 15932
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 7 , count: 52 @ cycle-counter: 17 @ micros dT= 23989
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 53 @ cycle-counter: 17 @ micros dT= 32047
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 54 @ cycle-counter: 17 @ micros dT= 40104
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 55 @ cycle-counter: 17 @ micros dT= 48161
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 56 @ cycle-counter: 17 @ micros dT= 56217
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 7 , count: 57 @ cycle-counter: 17 @ micros dT= 64275
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 58 @ cycle-counter: 17 @ micros dT= 72332
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 59 @ cycle-counter: 17 @ micros dT= 80389
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 60 @ cycle-counter: 17 @ micros dT= 88446
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 61 @ cycle-counter: 17 @ micros dT= 96503
+
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 62 @ cycle-counter: 18 @ micros dT= 187
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 63 @ cycle-counter: 18 @ micros dT= 592
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 64 @ cycle-counter: 18 @ micros dT= 996
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 65 @ cycle-counter: 18 @ micros dT= 1402
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 66 @ cycle-counter: 18 @ micros dT= 1814
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 7 , count: 67 @ cycle-counter: 18 @ micros dT= 2227
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 68 @ cycle-counter: 18 @ micros dT= 2639
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 69 @ cycle-counter: 18 @ micros dT= 3051
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 70 @ cycle-counter: 18 @ micros dT= 3463
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 71 @ cycle-counter: 18 @ micros dT= 3875
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 72 @ cycle-counter: 18 @ micros dT= 4288
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 73 @ cycle-counter: 18 @ micros dT= 4700
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 74 @ cycle-counter: 18 @ micros dT= 7957
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 75 @ cycle-counter: 18 @ micros dT= 15929
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 7 , count: 76 @ cycle-counter: 18 @ micros dT= 23986
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 77 @ cycle-counter: 18 @ micros dT= 32044
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 78 @ cycle-counter: 18 @ micros dT= 40101
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 79 @ cycle-counter: 18 @ micros dT= 48158
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 7 , count: 80 @ cycle-counter: 18 @ micros dT= 56214
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 81 @ cycle-counter: 18 @ micros dT= 64272
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 82 @ cycle-counter: 18 @ micros dT= 72329
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 83 @ cycle-counter: 18 @ micros dT= 80386
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 84 @ cycle-counter: 18 @ micros dT= 88443
+ADC = 1032 / avg.: 1026 , dV: 6 , noise: 7 , count: 85 @ cycle-counter: 18 @ micros dT= 96500
+
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 7 , count: 86 @ cycle-counter: 19 @ micros dT= 187
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 87 @ cycle-counter: 19 @ micros dT= 592
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 7 , count: 88 @ cycle-counter: 19 @ micros dT= 996
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 89 @ cycle-counter: 19 @ micros dT= 1402
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 90 @ cycle-counter: 19 @ micros dT= 1814
+ADC = 1032 / avg.: 1026 , dV: 6 , noise: 7 , count: 91 @ cycle-counter: 19 @ micros dT= 2227
+ADC = 1034 / avg.: 1026 , dV: 8 , noise: 8 , count: 92 @ cycle-counter: 19 @ micros dT= 2639
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 8 , count: 93 @ cycle-counter: 19 @ micros dT= 3051
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 94 @ cycle-counter: 19 @ micros dT= 3463
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 8 , count: 95 @ cycle-counter: 19 @ micros dT= 3875
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 8 , count: 96 @ cycle-counter: 19 @ micros dT= 4289
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 97 @ cycle-counter: 19 @ micros dT= 4701
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 98 @ cycle-counter: 19 @ micros dT= 7963
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 99 @ cycle-counter: 19 @ micros dT= 15935
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 8 , count: 100 @ cycle-counter: 19 @ micros dT= 23997
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 8 , count: 101 @ cycle-counter: 19 @ micros dT= 32140
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 8 , count: 102 @ cycle-counter: 19 @ micros dT= 40282
+ADC = 1032 / avg.: 1026 , dV: 6 , noise: 8 , count: 103 @ cycle-counter: 19 @ micros dT= 48424
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 104 @ cycle-counter: 19 @ micros dT= 56567
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 105 @ cycle-counter: 19 @ micros dT= 64710
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 8 , count: 106 @ cycle-counter: 19 @ micros dT= 72853
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 107 @ cycle-counter: 19 @ micros dT= 80997
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 8 , count: 108 @ cycle-counter: 19 @ micros dT= 89140
+ADC = 1032 / avg.: 1026 , dV: 6 , noise: 8 , count: 109 @ cycle-counter: 19 @ micros dT= 97282
+ADC *OFF*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 20 @ micros dT= 515
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 20 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 21 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 22 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 5 @ cycle-counter: 23 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 6 @ cycle-counter: 24 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 7 @ cycle-counter: 25 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 8 @ cycle-counter: 26 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 9 @ cycle-counter: 27 @ micros dT= 100168
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 10 @ cycle-counter: 28 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 11 @ cycle-counter: 29 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 12 @ cycle-counter: 30 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 13 @ cycle-counter: 31 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 14 @ cycle-counter: 32 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 15 @ cycle-counter: 33 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 16 @ cycle-counter: 34 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 17 @ cycle-counter: 35 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 18 @ cycle-counter: 36 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 19 @ cycle-counter: 37 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 20 @ cycle-counter: 38 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 21 @ cycle-counter: 39 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 22 @ cycle-counter: 40 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 23 @ cycle-counter: 41 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 24 @ cycle-counter: 42 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 25 @ cycle-counter: 43 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 26 @ cycle-counter: 44 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 27 @ cycle-counter: 45 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 28 @ cycle-counter: 46 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 29 @ cycle-counter: 47 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 30 @ cycle-counter: 48 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 31 @ cycle-counter: 49 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 32 @ cycle-counter: 50 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 33 @ cycle-counter: 51 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 34 @ cycle-counter: 52 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 35 @ cycle-counter: 53 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 36 @ cycle-counter: 54 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 37 @ cycle-counter: 55 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 38 @ cycle-counter: 56 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 39 @ cycle-counter: 57 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 40 @ cycle-counter: 58 @ micros dT= 100176
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 41 @ cycle-counter: 59 @ micros dT= 100177
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 42 @ cycle-counter: 60 @ micros dT= 100176
+...RESET CYCLE...
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 43 @ cycle-counter: 0 @ micros dT= 100166
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 44 @ cycle-counter: 1 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 45 @ cycle-counter: 2 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 46 @ cycle-counter: 3 @ micros dT= 100167
+
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 0 , count: 47 @ cycle-counter: 4 @ micros dT= 100167
+ADC *ON*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 5 @ micros dT= 503
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 2 @ cycle-counter: 5 @ micros dT= 8218
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 3 @ cycle-counter: 5 @ micros dT= 16018
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 4 @ cycle-counter: 5 @ micros dT= 23903
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 5 @ cycle-counter: 5 @ micros dT= 31790
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 6 @ cycle-counter: 5 @ micros dT= 39675
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 7 @ cycle-counter: 5 @ micros dT= 47561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 8 @ cycle-counter: 5 @ micros dT= 55446
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 9 @ cycle-counter: 5 @ micros dT= 63332
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 10 @ cycle-counter: 5 @ micros dT= 71228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 11 @ cycle-counter: 5 @ micros dT= 79200
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 12 @ cycle-counter: 5 @ micros dT= 87171
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 13 @ cycle-counter: 5 @ micros dT= 95143
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 14 @ cycle-counter: 6 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 15 @ cycle-counter: 6 @ micros dT= 569
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 16 @ cycle-counter: 6 @ micros dT= 963
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 17 @ cycle-counter: 6 @ micros dT= 1359
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 18 @ cycle-counter: 6 @ micros dT= 1758
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 19 @ cycle-counter: 6 @ micros dT= 2160
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 20 @ cycle-counter: 6 @ micros dT= 2561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 21 @ cycle-counter: 6 @ micros dT= 2960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 22 @ cycle-counter: 6 @ micros dT= 3362
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 23 @ cycle-counter: 6 @ micros dT= 3763
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 24 @ cycle-counter: 6 @ micros dT= 4163
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 25 @ cycle-counter: 6 @ micros dT= 4564
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 26 @ cycle-counter: 6 @ micros dT= 6917
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 27 @ cycle-counter: 6 @ micros dT= 14802
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 28 @ cycle-counter: 6 @ micros dT= 22774
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 29 @ cycle-counter: 6 @ micros dT= 30745
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 30 @ cycle-counter: 6 @ micros dT= 38717
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 31 @ cycle-counter: 6 @ micros dT= 46688
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 32 @ cycle-counter: 6 @ micros dT= 54660
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 33 @ cycle-counter: 6 @ micros dT= 62631
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 34 @ cycle-counter: 6 @ micros dT= 70602
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 35 @ cycle-counter: 6 @ micros dT= 78574
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 36 @ cycle-counter: 6 @ micros dT= 86545
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 37 @ cycle-counter: 6 @ micros dT= 94517
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 38 @ cycle-counter: 7 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 39 @ cycle-counter: 7 @ micros dT= 569
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 40 @ cycle-counter: 7 @ micros dT= 963
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 41 @ cycle-counter: 7 @ micros dT= 1359
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 42 @ cycle-counter: 7 @ micros dT= 1758
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 43 @ cycle-counter: 7 @ micros dT= 2160
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 44 @ cycle-counter: 7 @ micros dT= 2561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 45 @ cycle-counter: 7 @ micros dT= 2960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 46 @ cycle-counter: 7 @ micros dT= 3362
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 47 @ cycle-counter: 7 @ micros dT= 3763
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 48 @ cycle-counter: 7 @ micros dT= 4163
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 49 @ cycle-counter: 7 @ micros dT= 4564
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 50 @ cycle-counter: 7 @ micros dT= 6917
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 51 @ cycle-counter: 7 @ micros dT= 14802
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 52 @ cycle-counter: 7 @ micros dT= 22774
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 53 @ cycle-counter: 7 @ micros dT= 30745
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 54 @ cycle-counter: 7 @ micros dT= 38717
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 55 @ cycle-counter: 7 @ micros dT= 46688
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 56 @ cycle-counter: 7 @ micros dT= 54660
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 57 @ cycle-counter: 7 @ micros dT= 62631
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 58 @ cycle-counter: 7 @ micros dT= 70602
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 59 @ cycle-counter: 7 @ micros dT= 78574
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 60 @ cycle-counter: 7 @ micros dT= 86545
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 61 @ cycle-counter: 7 @ micros dT= 94517
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 62 @ cycle-counter: 8 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 63 @ cycle-counter: 8 @ micros dT= 569
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 64 @ cycle-counter: 8 @ micros dT= 963
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 65 @ cycle-counter: 8 @ micros dT= 1359
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 66 @ cycle-counter: 8 @ micros dT= 1758
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 67 @ cycle-counter: 8 @ micros dT= 2160
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 68 @ cycle-counter: 8 @ micros dT= 2561
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 69 @ cycle-counter: 8 @ micros dT= 2960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 70 @ cycle-counter: 8 @ micros dT= 3362
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 71 @ cycle-counter: 8 @ micros dT= 3763
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 72 @ cycle-counter: 8 @ micros dT= 4163
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 73 @ cycle-counter: 8 @ micros dT= 4564
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 74 @ cycle-counter: 8 @ micros dT= 6917
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 75 @ cycle-counter: 8 @ micros dT= 14802
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 76 @ cycle-counter: 8 @ micros dT= 22774
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 77 @ cycle-counter: 8 @ micros dT= 30745
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 78 @ cycle-counter: 8 @ micros dT= 38717
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 79 @ cycle-counter: 8 @ micros dT= 46688
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 80 @ cycle-counter: 8 @ micros dT= 54660
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 81 @ cycle-counter: 8 @ micros dT= 62631
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 82 @ cycle-counter: 8 @ micros dT= 70602
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 83 @ cycle-counter: 8 @ micros dT= 78574
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 84 @ cycle-counter: 8 @ micros dT= 86545
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 85 @ cycle-counter: 8 @ micros dT= 94517
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 86 @ cycle-counter: 9 @ micros dT= 178
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 87 @ cycle-counter: 9 @ micros dT= 569
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 88 @ cycle-counter: 9 @ micros dT= 963
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 89 @ cycle-counter: 9 @ micros dT= 1358
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 90 @ cycle-counter: 9 @ micros dT= 1758
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 91 @ cycle-counter: 9 @ micros dT= 2160
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 92 @ cycle-counter: 9 @ micros dT= 2560
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 93 @ cycle-counter: 9 @ micros dT= 2960
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 94 @ cycle-counter: 9 @ micros dT= 3362
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 95 @ cycle-counter: 9 @ micros dT= 3763
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 96 @ cycle-counter: 9 @ micros dT= 4163
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 97 @ cycle-counter: 9 @ micros dT= 4564
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 98 @ cycle-counter: 9 @ micros dT= 6917
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 99 @ cycle-counter: 9 @ micros dT= 14802
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 100 @ cycle-counter: 9 @ micros dT= 22779
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 101 @ cycle-counter: 9 @ micros dT= 30836
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 102 @ cycle-counter: 9 @ micros dT= 38893
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 103 @ cycle-counter: 9 @ micros dT= 46950
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 104 @ cycle-counter: 9 @ micros dT= 55008
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 105 @ cycle-counter: 9 @ micros dT= 63066
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 106 @ cycle-counter: 9 @ micros dT= 71123
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 107 @ cycle-counter: 9 @ micros dT= 79179
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 108 @ cycle-counter: 9 @ micros dT= 87236
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 109 @ cycle-counter: 9 @ micros dT= 95293
+ADC TS *OFF*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 10 @ micros dT= 516
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 2 @ cycle-counter: 10 @ micros dT= 8315
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 1 , count: 3 @ cycle-counter: 10 @ micros dT= 16201
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 4 @ cycle-counter: 10 @ micros dT= 24172
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 5 @ cycle-counter: 10 @ micros dT= 32144
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 6 @ cycle-counter: 10 @ micros dT= 40115
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 1 , count: 7 @ cycle-counter: 10 @ micros dT= 48087
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 8 @ cycle-counter: 10 @ micros dT= 56058
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 9 @ cycle-counter: 10 @ micros dT= 64030
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 10 @ cycle-counter: 10 @ micros dT= 72010
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 11 @ cycle-counter: 10 @ micros dT= 80067
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 12 @ cycle-counter: 10 @ micros dT= 88124
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 13 @ cycle-counter: 10 @ micros dT= 96181
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 14 @ cycle-counter: 11 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 15 @ cycle-counter: 11 @ micros dT= 592
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 16 @ cycle-counter: 11 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 17 @ cycle-counter: 11 @ micros dT= 1403
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 18 @ cycle-counter: 11 @ micros dT= 1815
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 19 @ cycle-counter: 11 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 20 @ cycle-counter: 11 @ micros dT= 2641
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 21 @ cycle-counter: 11 @ micros dT= 3052
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 22 @ cycle-counter: 11 @ micros dT= 3464
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 23 @ cycle-counter: 11 @ micros dT= 3877
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 24 @ cycle-counter: 11 @ micros dT= 4290
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 25 @ cycle-counter: 11 @ micros dT= 4703
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 26 @ cycle-counter: 11 @ micros dT= 7963
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 27 @ cycle-counter: 11 @ micros dT= 15935
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 28 @ cycle-counter: 11 @ micros dT= 23993
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 29 @ cycle-counter: 11 @ micros dT= 32050
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 30 @ cycle-counter: 11 @ micros dT= 40107
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 31 @ cycle-counter: 11 @ micros dT= 48164
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 32 @ cycle-counter: 11 @ micros dT= 56220
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 33 @ cycle-counter: 11 @ micros dT= 64278
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 34 @ cycle-counter: 11 @ micros dT= 72335
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 35 @ cycle-counter: 11 @ micros dT= 80392
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 36 @ cycle-counter: 11 @ micros dT= 88449
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 37 @ cycle-counter: 11 @ micros dT= 96506
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 38 @ cycle-counter: 12 @ micros dT= 187
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 39 @ cycle-counter: 12 @ micros dT= 592
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 40 @ cycle-counter: 12 @ micros dT= 997
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 41 @ cycle-counter: 12 @ micros dT= 1403
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 42 @ cycle-counter: 12 @ micros dT= 1815
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 43 @ cycle-counter: 12 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 44 @ cycle-counter: 12 @ micros dT= 2641
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 45 @ cycle-counter: 12 @ micros dT= 3052
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 46 @ cycle-counter: 12 @ micros dT= 3465
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 47 @ cycle-counter: 12 @ micros dT= 3877
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 48 @ cycle-counter: 12 @ micros dT= 4290
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 49 @ cycle-counter: 12 @ micros dT= 4702
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 50 @ cycle-counter: 12 @ micros dT= 7960
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 51 @ cycle-counter: 12 @ micros dT= 15932
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 52 @ cycle-counter: 12 @ micros dT= 23991
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 53 @ cycle-counter: 12 @ micros dT= 32047
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 54 @ cycle-counter: 12 @ micros dT= 40104
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 55 @ cycle-counter: 12 @ micros dT= 48161
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 56 @ cycle-counter: 12 @ micros dT= 56218
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 57 @ cycle-counter: 12 @ micros dT= 64275
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 58 @ cycle-counter: 12 @ micros dT= 72332
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 59 @ cycle-counter: 12 @ micros dT= 80389
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 60 @ cycle-counter: 12 @ micros dT= 88446
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 61 @ cycle-counter: 12 @ micros dT= 96503
+
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 62 @ cycle-counter: 13 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 63 @ cycle-counter: 13 @ micros dT= 592
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 64 @ cycle-counter: 13 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 65 @ cycle-counter: 13 @ micros dT= 1403
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 66 @ cycle-counter: 13 @ micros dT= 1815
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 67 @ cycle-counter: 13 @ micros dT= 2228
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 68 @ cycle-counter: 13 @ micros dT= 2641
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 69 @ cycle-counter: 13 @ micros dT= 3052
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 70 @ cycle-counter: 13 @ micros dT= 3465
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 71 @ cycle-counter: 13 @ micros dT= 3877
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 72 @ cycle-counter: 13 @ micros dT= 4290
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 73 @ cycle-counter: 13 @ micros dT= 4702
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 74 @ cycle-counter: 13 @ micros dT= 7958
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 75 @ cycle-counter: 13 @ micros dT= 15929
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 76 @ cycle-counter: 13 @ micros dT= 23986
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 77 @ cycle-counter: 13 @ micros dT= 32044
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 78 @ cycle-counter: 13 @ micros dT= 40101
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 79 @ cycle-counter: 13 @ micros dT= 48159
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 80 @ cycle-counter: 13 @ micros dT= 56215
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 81 @ cycle-counter: 13 @ micros dT= 64272
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 82 @ cycle-counter: 13 @ micros dT= 72329
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 83 @ cycle-counter: 13 @ micros dT= 80386
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 84 @ cycle-counter: 13 @ micros dT= 88443
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 85 @ cycle-counter: 13 @ micros dT= 96500
+
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 86 @ cycle-counter: 14 @ micros dT= 187
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 87 @ cycle-counter: 14 @ micros dT= 592
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 88 @ cycle-counter: 14 @ micros dT= 997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 89 @ cycle-counter: 14 @ micros dT= 1403
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 90 @ cycle-counter: 14 @ micros dT= 1815
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 91 @ cycle-counter: 14 @ micros dT= 2228
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 92 @ cycle-counter: 14 @ micros dT= 2640
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 93 @ cycle-counter: 14 @ micros dT= 3052
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 94 @ cycle-counter: 14 @ micros dT= 3464
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 95 @ cycle-counter: 14 @ micros dT= 3876
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 96 @ cycle-counter: 14 @ micros dT= 4290
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 97 @ cycle-counter: 14 @ micros dT= 4702
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 98 @ cycle-counter: 14 @ micros dT= 7963
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 99 @ cycle-counter: 14 @ micros dT= 15935
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 100 @ cycle-counter: 14 @ micros dT= 23997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 101 @ cycle-counter: 14 @ micros dT= 32140
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 102 @ cycle-counter: 14 @ micros dT= 40282
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 103 @ cycle-counter: 14 @ micros dT= 48424
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 104 @ cycle-counter: 14 @ micros dT= 56567
+ADC = 2059 / avg.: 2057 , dV: 2 , noise: 2 , count: 105 @ cycle-counter: 14 @ micros dT= 64710
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 106 @ cycle-counter: 14 @ micros dT= 72853
+ADC = 2057 / avg.: 2057 , dV: 0 , noise: 2 , count: 107 @ cycle-counter: 14 @ micros dT= 80997
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 108 @ cycle-counter: 14 @ micros dT= 89140
+ADC = 2058 / avg.: 2057 , dV: 1 , noise: 2 , count: 109 @ cycle-counter: 14 @ micros dT= 97282
+ADC TS *ON*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1033 / avg.: 1033 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 15 @ micros dT= 515
+ADC = 1033 / avg.: 1033 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 15 @ micros dT= 8314
+ADC = 1031 / avg.: 1032 , dV: 1 , noise: 1 , count: 3 @ cycle-counter: 15 @ micros dT= 16200
+ADC = 1032 / avg.: 1032 , dV: 0 , noise: 1 , count: 4 @ cycle-counter: 15 @ micros dT= 24172
+ADC = 1032 / avg.: 1032 , dV: 0 , noise: 1 , count: 5 @ cycle-counter: 15 @ micros dT= 32143
+ADC = 1034 / avg.: 1032 , dV: 2 , noise: 2 , count: 6 @ cycle-counter: 15 @ micros dT= 40114
+ADC = 1035 / avg.: 1032 , dV: 3 , noise: 3 , count: 7 @ cycle-counter: 15 @ micros dT= 48086
+ADC = 1033 / avg.: 1032 , dV: 1 , noise: 3 , count: 8 @ cycle-counter: 15 @ micros dT= 56057
+ADC = 1032 / avg.: 1032 , dV: 0 , noise: 3 , count: 9 @ cycle-counter: 15 @ micros dT= 64029
+ADC = 1032 / avg.: 1032 , dV: 0 , noise: 3 , count: 10 @ cycle-counter: 15 @ micros dT= 72009
+ADC = 1032 / avg.: 1032 , dV: 0 , noise: 3 , count: 11 @ cycle-counter: 15 @ micros dT= 80066
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 3 , count: 12 @ cycle-counter: 15 @ micros dT= 88123
+ADC = 1034 / avg.: 1031 , dV: 3 , noise: 3 , count: 13 @ cycle-counter: 15 @ micros dT= 96181
+
+ADC = 1031 / avg.: 1031 , dV: 0 , noise: 3 , count: 14 @ cycle-counter: 16 @ micros dT= 187
+ADC = 1027 / avg.: 1030 , dV: 3 , noise: 3 , count: 15 @ cycle-counter: 16 @ micros dT= 592
+ADC = 1033 / avg.: 1030 , dV: 3 , noise: 3 , count: 16 @ cycle-counter: 16 @ micros dT= 997
+ADC = 1027 / avg.: 1029 , dV: 2 , noise: 3 , count: 17 @ cycle-counter: 16 @ micros dT= 1402
+ADC = 1029 / avg.: 1029 , dV: 0 , noise: 3 , count: 18 @ cycle-counter: 16 @ micros dT= 1815
+ADC = 1030 / avg.: 1029 , dV: 1 , noise: 3 , count: 19 @ cycle-counter: 16 @ micros dT= 2228
+ADC = 1031 / avg.: 1029 , dV: 2 , noise: 3 , count: 20 @ cycle-counter: 16 @ micros dT= 2640
+ADC = 1027 / avg.: 1028 , dV: 1 , noise: 3 , count: 21 @ cycle-counter: 16 @ micros dT= 3052
+ADC = 1031 / avg.: 1028 , dV: 3 , noise: 3 , count: 22 @ cycle-counter: 16 @ micros dT= 3464
+ADC = 1030 / avg.: 1028 , dV: 2 , noise: 3 , count: 23 @ cycle-counter: 16 @ micros dT= 3876
+ADC = 1026 / avg.: 1027 , dV: 1 , noise: 3 , count: 24 @ cycle-counter: 16 @ micros dT= 4289
+ADC = 1033 / avg.: 1027 , dV: 6 , noise: 6 , count: 25 @ cycle-counter: 16 @ micros dT= 4702
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 26 @ cycle-counter: 16 @ micros dT= 7960
+ADC = 1031 / avg.: 1027 , dV: 4 , noise: 6 , count: 27 @ cycle-counter: 16 @ micros dT= 15932
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 6 , count: 28 @ cycle-counter: 16 @ micros dT= 23989
+ADC = 1033 / avg.: 1027 , dV: 6 , noise: 6 , count: 29 @ cycle-counter: 16 @ micros dT= 32047
+ADC = 1032 / avg.: 1027 , dV: 5 , noise: 6 , count: 30 @ cycle-counter: 16 @ micros dT= 40104
+ADC = 1031 / avg.: 1027 , dV: 4 , noise: 6 , count: 31 @ cycle-counter: 16 @ micros dT= 48161
+ADC = 1031 / avg.: 1027 , dV: 4 , noise: 6 , count: 32 @ cycle-counter: 16 @ micros dT= 56217
+ADC = 1033 / avg.: 1027 , dV: 6 , noise: 6 , count: 33 @ cycle-counter: 16 @ micros dT= 64275
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 34 @ cycle-counter: 16 @ micros dT= 72332
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 35 @ cycle-counter: 16 @ micros dT= 80389
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 36 @ cycle-counter: 16 @ micros dT= 88446
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 6 , count: 37 @ cycle-counter: 16 @ micros dT= 96503
+
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 38 @ cycle-counter: 17 @ micros dT= 187
+ADC = 1032 / avg.: 1027 , dV: 5 , noise: 6 , count: 39 @ cycle-counter: 17 @ micros dT= 592
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 40 @ cycle-counter: 17 @ micros dT= 996
+ADC = 1033 / avg.: 1027 , dV: 6 , noise: 6 , count: 41 @ cycle-counter: 17 @ micros dT= 1401
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 42 @ cycle-counter: 17 @ micros dT= 1813
+ADC = 1032 / avg.: 1027 , dV: 5 , noise: 6 , count: 43 @ cycle-counter: 17 @ micros dT= 2227
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 44 @ cycle-counter: 17 @ micros dT= 2639
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 45 @ cycle-counter: 17 @ micros dT= 3050
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 46 @ cycle-counter: 17 @ micros dT= 3463
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 47 @ cycle-counter: 17 @ micros dT= 3875
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 48 @ cycle-counter: 17 @ micros dT= 4288
+ADC = 1031 / avg.: 1027 , dV: 4 , noise: 6 , count: 49 @ cycle-counter: 17 @ micros dT= 4700
+ADC = 1033 / avg.: 1027 , dV: 6 , noise: 6 , count: 50 @ cycle-counter: 17 @ micros dT= 7957
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 6 , count: 51 @ cycle-counter: 17 @ micros dT= 15929
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 52 @ cycle-counter: 17 @ micros dT= 23986
+ADC = 1030 / avg.: 1027 , dV: 3 , noise: 6 , count: 53 @ cycle-counter: 17 @ micros dT= 32044
+ADC = 1027 / avg.: 1027 , dV: 0 , noise: 6 , count: 54 @ cycle-counter: 17 @ micros dT= 40101
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 6 , count: 55 @ cycle-counter: 17 @ micros dT= 48158
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 56 @ cycle-counter: 17 @ micros dT= 56215
+ADC = 1027 / avg.: 1027 , dV: 0 , noise: 6 , count: 57 @ cycle-counter: 17 @ micros dT= 64272
+ADC = 1029 / avg.: 1027 , dV: 2 , noise: 6 , count: 58 @ cycle-counter: 17 @ micros dT= 72329
+ADC = 1031 / avg.: 1027 , dV: 4 , noise: 6 , count: 59 @ cycle-counter: 17 @ micros dT= 80386
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 6 , count: 60 @ cycle-counter: 17 @ micros dT= 88443
+ADC = 1028 / avg.: 1027 , dV: 1 , noise: 6 , count: 61 @ cycle-counter: 17 @ micros dT= 96500
+
+ADC = 1026 / avg.: 1026 , dV: 0 , noise: 6 , count: 62 @ cycle-counter: 18 @ micros dT= 187
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 6 , count: 63 @ cycle-counter: 18 @ micros dT= 592
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 6 , count: 64 @ cycle-counter: 18 @ micros dT= 996
+ADC = 1031 / avg.: 1026 , dV: 5 , noise: 6 , count: 65 @ cycle-counter: 18 @ micros dT= 1401
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 6 , count: 66 @ cycle-counter: 18 @ micros dT= 1813
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 6 , count: 67 @ cycle-counter: 18 @ micros dT= 2226
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 6 , count: 68 @ cycle-counter: 18 @ micros dT= 2639
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 6 , count: 69 @ cycle-counter: 18 @ micros dT= 3050
+ADC = 1032 / avg.: 1026 , dV: 6 , noise: 6 , count: 70 @ cycle-counter: 18 @ micros dT= 3462
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 6 , count: 71 @ cycle-counter: 18 @ micros dT= 3875
+ADC = 1033 / avg.: 1026 , dV: 7 , noise: 7 , count: 72 @ cycle-counter: 18 @ micros dT= 4288
+ADC = 1026 / avg.: 1026 , dV: 0 , noise: 7 , count: 73 @ cycle-counter: 18 @ micros dT= 4700
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 74 @ cycle-counter: 18 @ micros dT= 7963
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 7 , count: 75 @ cycle-counter: 18 @ micros dT= 15934
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 7 , count: 76 @ cycle-counter: 18 @ micros dT= 23993
+ADC = 1027 / avg.: 1026 , dV: 1 , noise: 7 , count: 77 @ cycle-counter: 18 @ micros dT= 32050
+ADC = 1030 / avg.: 1026 , dV: 4 , noise: 7 , count: 78 @ cycle-counter: 18 @ micros dT= 40107
+ADC = 1034 / avg.: 1026 , dV: 8 , noise: 8 , count: 79 @ cycle-counter: 18 @ micros dT= 48164
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 8 , count: 80 @ cycle-counter: 18 @ micros dT= 56220
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 8 , count: 81 @ cycle-counter: 18 @ micros dT= 64277
+ADC = 1029 / avg.: 1026 , dV: 3 , noise: 8 , count: 82 @ cycle-counter: 18 @ micros dT= 72335
+ADC = 1028 / avg.: 1026 , dV: 2 , noise: 8 , count: 83 @ cycle-counter: 18 @ micros dT= 80392
+ADC = 1025 / avg.: 1025 , dV: 0 , noise: 8 , count: 84 @ cycle-counter: 18 @ micros dT= 88449
+ADC = 1031 / avg.: 1025 , dV: 6 , noise: 8 , count: 85 @ cycle-counter: 18 @ micros dT= 96506
+
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 8 , count: 86 @ cycle-counter: 19 @ micros dT= 187
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 8 , count: 87 @ cycle-counter: 19 @ micros dT= 592
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 88 @ cycle-counter: 19 @ micros dT= 996
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 89 @ cycle-counter: 19 @ micros dT= 1401
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 90 @ cycle-counter: 19 @ micros dT= 1812
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 91 @ cycle-counter: 19 @ micros dT= 2225
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 92 @ cycle-counter: 19 @ micros dT= 2638
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 93 @ cycle-counter: 19 @ micros dT= 3049
+ADC = 1029 / avg.: 1025 , dV: 4 , noise: 8 , count: 94 @ cycle-counter: 19 @ micros dT= 3461
+ADC = 1027 / avg.: 1025 , dV: 2 , noise: 8 , count: 95 @ cycle-counter: 19 @ micros dT= 3873
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 96 @ cycle-counter: 19 @ micros dT= 4287
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 97 @ cycle-counter: 19 @ micros dT= 4699
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 98 @ cycle-counter: 19 @ micros dT= 7960
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 99 @ cycle-counter: 19 @ micros dT= 15932
+ADC = 1027 / avg.: 1025 , dV: 2 , noise: 8 , count: 100 @ cycle-counter: 19 @ micros dT= 23994
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 101 @ cycle-counter: 19 @ micros dT= 32137
+ADC = 1032 / avg.: 1025 , dV: 7 , noise: 8 , count: 102 @ cycle-counter: 19 @ micros dT= 40279
+ADC = 1028 / avg.: 1025 , dV: 3 , noise: 8 , count: 103 @ cycle-counter: 19 @ micros dT= 48422
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 104 @ cycle-counter: 19 @ micros dT= 56564
+ADC = 1030 / avg.: 1025 , dV: 5 , noise: 8 , count: 105 @ cycle-counter: 19 @ micros dT= 64707
+ADC = 1031 / avg.: 1025 , dV: 6 , noise: 8 , count: 106 @ cycle-counter: 19 @ micros dT= 72850
+ADC = 1024 / avg.: 1024 , dV: 0 , noise: 8 , count: 107 @ cycle-counter: 19 @ micros dT= 80994
+ADC = 1026 / avg.: 1024 , dV: 2 , noise: 8 , count: 108 @ cycle-counter: 19 @ micros dT= 89137
+ADC = 1029 / avg.: 1024 , dV: 5 , noise: 8 , count: 109 @ cycle-counter: 19 @ micros dT= 97279
+ADC *OFF*
+PIO_PSR =    $0FFF:33FF(B0000.1111.1111.1111:0011.0011.1111.1111)
+PIO_OSR =    $0800:0000(B0000.1000.0000.0000:0000.0000.0000.0000)
+PIO_IFSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_ODSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PDSR =   $F7FF:FFFF(B1111.0111.1111.1111:1111.1111.1111.1111)
+PIO_ISR =    $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_MDSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_PUSR =   $0EBF:FC00(B0000.1110.1011.1111:1111.1100.0000.0000)
+PIO_ABSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCIFSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_DIFSR =  $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_IFDGSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_SCDR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_OWSR =   $FFFF:FFFF(B1111.1111.1111.1111:1111.1111.1111.1111)
+PIO_ELSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_LOCKSR = $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+PIO_WPSR =   $0000:0000(B0000.0000.0000.0000:0000.0000.0000.0000)
+
+
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 1 @ cycle-counter: 20 @ micros dT= 514
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 2 @ cycle-counter: 20 @ micros dT= 100168
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 3 @ cycle-counter: 21 @ micros dT= 100167
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 4 @ cycle-counter: 22 @ micros dT= 100167
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 5 @ cycle-counter: 23 @ micros dT= 100167
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 6 @ cycle-counter: 24 @ micros dT= 100167
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 7 @ cycle-counter: 25 @ micros dT= 100167
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 8 @ cycle-counter: 26 @ micros dT= 100167
+
+ADC = 1030 / avg.: 1030 , dV: 0 , noise: 0 , count: 9 @ cycle-counter: 27 @ micros dT= 100168
