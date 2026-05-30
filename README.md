@@ -16,9 +16,10 @@ Demo code demonstrating the issue is provided as `ADC15-tempsensor-conflict-outp
 
 ### References
 
--
--
--
+- [Arduino forum: Reading the temperature sensor inside Arduino Due](https://forum.arduino.cc/t/reading-the-temperature-sensor-inside-arduino-due/180830)
+- [Microchip/Atmel forum: SAM3A using ADC Internal Temp sensor on AD15 that somehow takes over PB27 GPIO](https://forum.microchip.com/s/topic/a5C3l000000UfdyEAC/t173189)
+- [Atmel -> Microchip: SAM3X8E MCU datasheet, et al](https://www.microchip.com/en-us/product/ATSAM3X8E)
+- 
 
 
 
