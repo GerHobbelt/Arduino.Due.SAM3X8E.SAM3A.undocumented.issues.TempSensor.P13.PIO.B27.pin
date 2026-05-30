@@ -1,79 +1,7 @@
 /* Showcases the Arduino Due SAM3X8E issue where ADC15 (temp sensor) usage conflicts with using output pin P13 ('blinking LED') */
 
-#include <type_traits>
 
-//
-// large-ish debug helper code chunk, ripped from another project verbatim.
-//
-
-// SAM3 compiler is stuck at the C++/11 age, so no `%b` for me.
-
-static const char *nibble_2_bitpattern[16] = {
-    [ 0] = "0000", [ 1] = "0001", [ 2] = "0010", [ 3] = "0011",
-    [ 4] = "0100", [ 5] = "0101", [ 6] = "0110", [ 7] = "0111",
-    [ 8] = "1000", [ 9] = "1001", [10] = "1010", [11] = "1011",
-    [12] = "1100", [13] = "1101", [14] = "1110", [15] = "1111",
-};
-
-static inline void to_bitstring(char dst[8 + 1], size_t dstsize, const uint8_t byte)
-{
-  if (dstsize < 8 + 1) {
-    if (dstsize == 1) {
-      dst[0] = 0;
-    } 
-    else if (dstsize >= 2) {
-      strcpy(dst, "?");
-    }
-    return;
-  }
-  snprintf(dst, dstsize, "%s%s", nibble_2_bitpattern[byte >> 4], nibble_2_bitpattern[byte & 0x0F]);
-}
-static inline void to_bitstring(char dst[4 *8 + 1], size_t dstsize, const uint32_t word)
-{
-  if (dstsize < 4 * 8 + 1) {
-    if (dstsize == 1) {
-      dst[0] = 0;
-    } 
-    else if (dstsize >= 2) {
-      strcpy(dst, "?");
-    }
-    return;
-  }
-  to_bitstring(dst, dstsize, word >> 24);
-  to_bitstring(dst + 8, dstsize - 8, word >> 16);
-  to_bitstring(dst + 16, dstsize - 16, word >> 8);
-  to_bitstring(dst + 24, dstsize - 24, word);
-}
-
-template <typename T,
-          typename = std::enable_if_t<std::is_arithmetic<T>::value || std::is_enum<T>::value>>
-String bin(const T ptr) {
-  char buf[sizeof(T) * 8 + 3];
-  snprintf(buf, sizeof(buf), "0b%s", to_bitstring(ptr));
-  return buf;
-}
-
-// polymorphic hex value print helpers.
-template <typename T>
-String hex(const T *ptr) {
-  char buf[12 + 3];
-  snprintf(buf, sizeof(buf), "0x%p", (const void *)ptr);
-  return buf;
-}
-
-template <typename T>
-String hex(T *ptr) {
-  char buf[12 + 3];
-  snprintf(buf, sizeof(buf), "0x%p", (const void *)ptr);
-  return buf;
-}
-
-static String hex(uint32_t v) {
-  char buf[12 + 32 + 7];
-  snprintf(buf, sizeof(buf), "0x%08X (0b%s)", (unsigned int)v);
-  return buf;
-}
-
+#include "hexdump.h"
 
 
 // OK, so what follows includes ALL the 'WTF is going on here!' coding activity I did.
@@ -183,6 +111,52 @@ static String hex(uint32_t v) {
 //                                                                                  Ger Hobbelt
 //                                                                                  CTO At Large
 //
+
+
+using SBuf = StringBuffer<200>;
+
+
+
+
+
+static void dump_PIO_registers(SBuf &msgbuf) {
+  uint32_t srv = PIOB->PIO_PSR;
+  Serial.print(msgbuf << "PIO_PSR =   " | srv);
+  srv = PIOB->PIO_OSR;
+  Serial.print(msgbuf << "PIO_OSR =   " | srv);
+  srv = PIOB->PIO_IFSR;
+  Serial.print(msgbuf << "PIO_IFSR =  " | srv);
+  srv = PIOB->PIO_ODSR;
+  Serial.print(msgbuf << "PIO_ODSR =  " | srv);
+  srv = PIOB->PIO_PDSR;
+  Serial.print(msgbuf << "PIO_PDSR =  " | srv);
+  srv = PIOB->PIO_ISR;
+  Serial.print(msgbuf << "PIO_ISR =   " | srv);
+  srv = PIOB->PIO_MDSR;
+  Serial.print(msgbuf << "PIO_MDSR =  " | srv);
+  srv = PIOB->PIO_PUSR;
+  Serial.print(msgbuf << "PIO_PUSR =  " | srv);
+  srv = PIOB->PIO_ABSR;
+  Serial.print(msgbuf << "PIO_ABSR =  " | srv);
+  srv = PIOB->PIO_SCIFSR;
+  Serial.print(msgbuf << "PIO_SCIFSR =" | srv);
+  srv = PIOB->PIO_DIFSR;
+  Serial.print(msgbuf << "PIO_DIFSR = " | srv);
+  srv = PIOB->PIO_IFDGSR;
+  Serial.print(msgbuf << "PIO_IFDGSR =" | srv);
+  srv = PIOB->PIO_SCDR;
+  Serial.print(msgbuf << "PIO_SCDR =  " | srv);
+  srv = PIOB->PIO_OWSR;
+  Serial.print(msgbuf << "PIO_OWSR =  " | srv);
+  srv = PIOB->PIO_ELSR;
+  Serial.print(msgbuf << "PIO_ELSR =  " | srv);
+  srv = PIOB->PIO_LOCKSR;
+  Serial.print(msgbuf << "PIO_LOCKSR =" | srv);
+  srv = PIOB->PIO_WPSR;
+  Serial.print(msgbuf << "PIO_WPSR =  " | srv);
+  Serial.println();
+}
+
 
 void setup() {
   pmc_enable_periph_clk(ID_PIOB);                                  // To use peripheral, we must enable clock distribution to it
@@ -386,70 +360,22 @@ PIO_WPSR
   while(!SerialUSB);
 #endif  
 
+  SBuf msgbuf;
+
   Serial.begin(115200);
   Serial.print("PIN 13 vs Temp.Sensor ADC15 example ");
   Serial.print(__FILE__);
   Serial.println();
-  Serial.print("pin 13: write-protect status register = " + String(hex(pinwpstat).c_str()));
+  Serial.print(msgbuf << "pin 13: write-protect status register = " << pinwpstat);
   Serial.println();
-  Serial.print("pin 13: pinval.0 = " + String(pinval0));
+  Serial.print(msgbuf << "pin 13: pinval.0 =  " << pinval0);
   Serial.println();
-  Serial.print("pin 13: pinval.1 = " + String(pinval1));
+  Serial.print(msgbuf << "pin 13: pinval.1 =  " << pinval1);
   Serial.println();
-  Serial.print("pin 13: pinstatus = " + String(pinstatus));
+  Serial.print(msgbuf << "pin 13: pinstatus = " << pinstatus);
   Serial.println();
 
-  uint32_t srv = PIOB->PIO_PSR;
-  Serial.print("PIO_PSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_OSR;
-  Serial.print("PIO_OSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_IFSR;
-  Serial.print("PIO_IFSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_ODSR;
-  Serial.print("PIO_ODSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_PDSR;
-  Serial.print("PIO_PDSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_ISR;
-  Serial.print("PIO_ISR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_MDSR;
-  Serial.print("PIO_MDSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_PUSR;
-  Serial.print("PIO_PUSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_ABSR;
-  Serial.print("PIO_ABSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_SCIFSR;
-  Serial.print("PIO_SCIFSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_DIFSR;
-  Serial.print("PIO_DIFSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_IFDGSR;
-  Serial.print("PIO_IFDGSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_SCDR;
-  Serial.print("PIO_SCDR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_OWSR;
-  Serial.print("PIO_OWSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_ELSR;
-  Serial.print("PIO_ELSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_LOCKSR;
-  Serial.print("PIO_LOCKSR = " + String(hex(srv).c_str()));
-  Serial.println();
-  srv = PIOB->PIO_WPSR;
-  Serial.print("PIO_WPSR = " + String(hex(srv).c_str()));
-  Serial.println();
+  dump_PIO_registers(msgbuf);
 
   Serial.println();
   Serial.println();
@@ -458,6 +384,8 @@ PIO_WPSR
 }
 
 void loop() {
+  SBuf msgbuf;
+
   static int count = 0;
   static bool led_state = false;
 #if 0
@@ -471,30 +399,123 @@ void loop() {
   led_state = !led_state;
 
   count++;
-  if (count == 5) {
+  bool state_changed = false;                // true: situation's changed, so we'd better reset the ADC value tracker code further below.
+  if (count == 2 * 5) {
     Serial.print("ADC *ON*\n");
     adc_enable_channel(ADC, ADC_TEMPERATURE_SENSOR);                // just one channel enabled
+    dump_PIO_registers(msgbuf);
+    state_changed = true;
   }
-  if (count == 10) {
+  if (count == 2 * 10) {
     Serial.print("ADC TS *OFF*\n");
     adc_disable_ts(ADC);
+    dump_PIO_registers(msgbuf);
+    state_changed = true;
   }
-  if (count == 15) {
+  if (count == 2 * 15) {
     Serial.print("ADC TS *ON*\n");
     adc_enable_ts(ADC);
+    dump_PIO_registers(msgbuf);
+    state_changed = true;
   }
-  if (count == 20) {
+  if (count == 2 * 20) {
     Serial.print("ADC *OFF*\n");
     adc_disable_channel(ADC, ADC_TEMPERATURE_SENSOR);
+    dump_PIO_registers(msgbuf);
+    state_changed = true;
+  }
+  if (count == 61) {
+    Serial.print("...RESET CYCLE...\n");
+    count = 0;
+    dump_PIO_registers(msgbuf);
+    //state_changed = true;
   }
 
 #if 0           // <-- didn't matter and disabling this ensures the code does not lock up, even IF you haven't set up the ADC module! yay!
     while((adc_get_status(ADC) & ADC_ISR_DRDY) != ADC_ISR_DRDY)
       ; // Wait for end of conversion
-#endif
     auto V = adc_get_latest_value(ADC);
     Serial.print("ADC = " + String(V) + "\n");
+#else
+    // spend 100 msecs reading the ADC, repeatedly. Collect and publish a few approximate stats as well...
+    unsigned int max_duration = 100 * 1000;
+    auto t0 = micros();
+    auto t1 = t0 + max_duration;
 
-  delay(1000);
+    static unsigned int V_tracked_avg = 0;
+    static unsigned int V_noise = 0;
+    constexpr const unsigned int smoothing_factor = 64;
+    static unsigned int V_count = 0;
+
+    if (state_changed) {
+      V_tracked_avg = 0;
+      V_noise = 0;
+      V_count = 0;
+      Serial.println();
+      Serial.println();
+    }
+    else {
+      Serial.println();
+    }
+
+    while(micros() < t1) {
+      while(micros() < t1 && (adc_get_status(ADC) & ADC_ISR_DRDY) != ADC_ISR_DRDY)
+        ; // Wait for end of conversion
+      // see datasheet section 43.6.4: reading the LCDR register clears the ready/EOC bits!
+      auto V = adc_get_latest_value(ADC);
+
+      V_count++;
+      unsigned dV = 0; 
+      if (V_tracked_avg == 0) {
+        V_tracked_avg = V;
+      }
+      else {
+        if (V_count < smoothing_factor) {
+          // initial ramp up to EMA 'averaging':
+          V_tracked_avg *= V_count;
+          V_tracked_avg += V;
+          V_tracked_avg /= V_count + 1;
+        }
+        else {
+          // the final smoothing EMA
+          V_tracked_avg *= smoothing_factor - 1;
+          V_tracked_avg += V;
+          V_tracked_avg /= smoothing_factor;
+        }
+        if (V >= V_tracked_avg) {
+          dV = V - V_tracked_avg; 
+          if (dV > V_noise)
+            V_noise = dV;
+        }
+        else {
+          dV = V_tracked_avg - V; 
+          if (dV > V_noise)
+            V_noise = dV;
+        }
+      }
+      Serial.print("ADC = " + String(V) + " / avg.: " + String(V_tracked_avg) + ", dV: " + String(dV) + ", noise: " + String(V_noise) + ", count: " + String(V_count) + " @ cycle-counter: " + String(count) + " @ micros dT=" + String(micros() - t0) + "\n");
+    }
+#endif
+
+  // ------------------------------------------------------------------------------------------------------
+  // show a light pulse train per state; still take 1000msecs total per round.
+  if (led_state) {
+    int state_fake = std::min(5, count / 5);
+    int i;
+    for(i = 0; i <= state_fake * 2; i++) {
+      delay(75);
+      if (i % 2)
+        PIO_Set(PIOB,PIO_PB27B_TIOB0);
+      else
+        PIO_Clear(PIOB,PIO_PB27B_TIOB0);    
+    }    
+    assert(i < 12);
+    i = 12 - i;
+    if (i > 0)
+      delay(75 * i);
+  }
+  else {
+    delay(1000 - 100 - 12 * 75);
+  }
 }
 
