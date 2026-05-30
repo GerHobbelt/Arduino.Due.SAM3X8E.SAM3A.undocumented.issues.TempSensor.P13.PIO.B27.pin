@@ -11,7 +11,7 @@ Demo code demonstrating the issue is provided as `ADC15-tempsensor-conflict-outp
 - meanwhile, the serial output logs what's being done and read: these transitions in behaviour are marked by the ADC channel 15 being *activated* and *deactivated* repectively, using the CMSIS API calls as provided by the Arduino Due build environment.
 - The demo code repeats (resets) the cycle after 61 seconds: I use an *odd* number of seconds for the major cycle so it becomes perfectly obvious that the actual state of the LED is irrelevant to the issue and the observed phenomenon.
 
-  > **observe** that when you touch `P13` and the adjacent `GND` pin at the connector on the Due board, the LED 'semi-randomly' **dims** during the 5-to-20-second period, depending on your touch & finger conductivity: this is due to the fact that the MCU switches the P13/TIOB0 pin to **input mode** during this episode.
+  > **observe** that when you touch `P13` and the adjacent `GND` pin at the connector on the Due board, the LED 'semi-randomly' **dims** during the 5-to-20-second period, depending on your touch & finger conductivity: this is due to the fact that the MCU switches the P13/TIOB0 pin to **high impedance input mode** during this episode.
   >
 
 ### References
