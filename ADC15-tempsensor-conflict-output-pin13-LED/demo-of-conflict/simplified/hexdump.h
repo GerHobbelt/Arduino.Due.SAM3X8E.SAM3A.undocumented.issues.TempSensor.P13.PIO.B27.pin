@@ -283,6 +283,7 @@ overflow:
 
 template <typename T,
           typename std::enable_if<
+		    // we assume all enums are SIGNED (gcc 4 for SAM3/Due failed to match either is_signed or is_unsigned for an enum type)
             ((std::is_arithmetic<T>::value && std::is_signed<T>::value) || std::is_enum<T>::value)
             && !std::is_same<T, bool>::value
             && !std::is_floating_point<T>::value,
@@ -324,8 +325,9 @@ overflow:
 
 template <typename T,
           typename std::enable_if<
+		    // we assume all enums are SIGNED (gcc 4 for SAM3/Due failed to match either is_signed or is_unsigned for an enum type)
             (std::is_arithmetic<T>::value && std::is_unsigned<T>::value)
-            && !std::is_enum<T>::value        // we assume all enums are SIGNED (gcc 4 for SAM3/Due failed to match either is_signed or is_unsigned for an enum type)
+            && !std::is_enum<T>::value
             && !std::is_same<T, bool>::value
             && !std::is_floating_point<T>::value,
             bool
